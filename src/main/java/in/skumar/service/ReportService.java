@@ -1,4 +1,4 @@
-package in.skumar.repo;
+package in.skumar.service;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import in.skumar.request.SearchRequest;
 
 public interface ReportService {
 	
-public List<String> getPlanNames();
+	public List<String> getPlanNames();
 	
 	public List<String> getPlanStatus();
 	
@@ -18,6 +18,7 @@ public List<String> getPlanNames();
 	public boolean exportExcel();
 	
 	public boolean exportpdf();
+
 }
 
 	

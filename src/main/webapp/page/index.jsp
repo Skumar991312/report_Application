@@ -97,8 +97,8 @@
         </table>
         
          <hr/>
-        Export: <a href="">Excel</a> <a href="">PDF</a>
-         
+        Export: <a href="${pageContext.request.contextPath}/export-excel" class="btn btn-success">Excel</a> <a href="">PDF</a>
+		
          
         </div>
     
